@@ -1,0 +1,12 @@
+/* div{
+    height: 200px;
+    max-width: 500px;
+    background-color: plum;
+} */
+
+div{
+    width: 200px;
+    border: 20px solid yellowgreen;
+    padding: 50px;
+    margin: 15px;
+}
