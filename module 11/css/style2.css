@@ -1,0 +1,35 @@
+/* div{
+    height: 200px;
+   max-width: 500px;
+    background-color: lightblue;
+} */
+
+
+
+div{
+    width: 300px;
+    border: 20px solid green;
+    padding: 50px;
+    margin: 15px;
+}
+
+
+p{
+    /* color: black; */
+    /* color: rgb(115, 48, 148); */
+    /* color: #7f38cf; */
+
+    border: 2px solid black; 
+ 
+    /* border-width: 2px;
+    border-style: solid black;
+    color: blueviolet; */
+}
+
+
+body{
+    /* background-color: blueviolet; */
+    /* background: url(../Images/1.jpg); */
+    background: url('../Images/1.jpg');
+    background-size: cover;
+}
