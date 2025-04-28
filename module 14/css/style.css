@@ -1,0 +1,27 @@
+/* article p{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+article > p{
+    background-color: red;
+}
+
+
+
+article ~ p{
+    background-color: purple;
+    color: white;
+    padding: 20px;
+} */
+
+/* 
+h3:first-child{
+    background-color: green;
+    color: white;
+} */
+
+input:in-range{
+    border: 3px solid green;
+}
