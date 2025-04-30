@@ -1,0 +1,45 @@
+#static-position{
+    position: static;
+    border: 3px solid darkblue;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+#relative-position{
+    position: relative;
+    border: 3px solid darkblue;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    left: 200px;
+    top: 20px;
+}
+
+
+#position-fixed{
+    position: fixed;
+    border: 3px solid darkblue;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    right: 200px;
+    top: 20px;
+}
+
+#parent{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 3px solid darkblue;
+}
+
+#child{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    left: 80px;
+    right: 70px;
+}
