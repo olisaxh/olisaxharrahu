@@ -1,4 +1,4 @@
-#static-position{
+/* #static-position{
     position: static;
     border: 3px solid darkblue;
     padding: 20px;
@@ -42,4 +42,34 @@
     color: white;
     left: 80px;
     right: 70px;
+} */
+
+#vertical-menu{
+    background-color:#f1f1f1 ;
+    padding: 0%;
+    width: 25%;
+    margin: 0%;
+    height: 150px;
+    position: fixed;
+
+}
+
+#vertikal-menu li a{
+    text-decoration: underline;
+    display: block;
+    color: #111;
+
+}
+
+
+
+#vertical-menu li a.active{
+    background-color: #4caf50;
+    color: white;
+}
+
+
+#vertical-menu li a.hover:not(.active){
+    background-color: #4caf50;
+    color: white;
 }
