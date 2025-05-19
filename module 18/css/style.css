@@ -1,0 +1,149 @@
+#translate {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    transform: translate(100px,50px);
+    padding: 10px;
+
+}
+
+#rotate{
+        width: 200px;
+    height: 200px;
+        border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    transform: rotate(90deg);
+    padding: 10px;
+
+}
+
+#scale {
+         width: 200px;
+    height: 200px;
+        border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin: 150px;
+    transform: scale(2,2);
+    padding: 10px;
+}
+
+#scaleX {
+         width: 200px;
+    height: 200px;
+        border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin-left: 250px;
+    transform: scaleX(3);
+    padding: 10px;
+}
+
+#scaleY {
+         width: 200px;
+    height: 200px;
+        border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin-top: 250px;
+    transform: scaleY(3);
+    padding: 10px;
+}
+
+#skewX{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin: 100px;
+    transform: skewX(-40deg);
+    padding: 10px;
+}
+
+#skewY{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin: 100px;
+    transform: skewY(40deg);
+    padding: 10px;
+}
+
+
+#skewY{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin: 100px;
+    transform: skewY(40deg);
+    padding: 10px;
+}
+
+
+#skewY{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin: 100px;
+    transform: skewY(40deg);
+    padding: 10px;
+}
+
+
+#rotateX{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin: 100px;
+    transform: rotateX(130deg);
+    padding: 10px;
+}
+
+
+#rotateY{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin: 100px;
+    transform: rotateY(130deg);
+    padding: 10px;
+}
+
+
+#rotateZ{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin: 100px;
+    transform: rotateZ(130deg);
+    padding: 10px;
+}
+
+#transition{
+     width: 200px;
+    height: 200px;
+    background: red;
+    transition: background 3s, border-radius 5s;
+    transition-timing-function: ease-in ;
+    transition-delay: 2s;
+}
+#transition:hover{
+    background: blue;
+    border-radius: 50%;
+}
