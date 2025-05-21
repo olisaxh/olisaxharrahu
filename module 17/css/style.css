@@ -51,7 +51,7 @@
     border-color: black transparent transparent transparent;
 } */
 
-body{
+/* body{
   counter-reset: number;
 }
 
@@ -64,4 +64,26 @@ h2::before{
     color: #00014e;
 
 
+} */
+
+/* :root{
+    --primary-color: #fff2ff;
+    --secondary-color: #923131;
+    --padding:20px;
+}
+ 
+h1{
+    background-color: #923131 var(--primary-color);
+    color: #923131 var(--secondary-color);
+} */
+
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+#speedsters img{
+     transform: scale(1);
+     transform: ;
 }
