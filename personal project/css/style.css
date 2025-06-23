@@ -5,9 +5,10 @@ body{
 }
 
 #section-1{
-    background-color: #87509c;
+    background-color: #6b6b6b;
     height: 600px;
 }
+
 .container{
     margin-left: auto;
     margin-right: auto;
@@ -15,14 +16,14 @@ body{
 }
 
 header{
-    padding: 55px;
+    padding: 75px;
     display: flex;
     justify-content: space-around;
 }
 
 nav ul li{
     display: inline-block;
-    padding: 10px 16px;
+    padding: 20px 26px;
 }
 
 nav ul li a{
@@ -31,7 +32,7 @@ nav ul li a{
 }
 
 nav ul li.active{
-    background-color: #4c285a;
+    background-color: #646464;
     border-radius: 5px;
 }
 
@@ -49,10 +50,272 @@ nav ul li.active{
 
 .main-heading a{
     text-decoration: none;
-    background-color: #eb7d4b;
+    background-color: #202020;
     font-size: 18px;
     text-transform: uppercase;
     color: white;
     border-radius: 5px;
     padding: 25px 85px;
+}
+
+#section-2{
+    background-color: #3f3f3f;
+    min-width: 745px;
+    color: white;
+}
+
+.title-box{
+    text-align: center;
+    max-width: 609px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-box h1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title-box .line{
+    width: 87px;
+    height: 4px;
+    background-color: rgb(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.servies-box{
+    margin-top: 80px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-bottom: 100px;
+}
+
+.service{
+    width: 24%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.service h3{
+    font-size: 24px;
+    font-weight: bold;
+   text-transform: uppercase;
+   margin-top: 60px;
+}
+
+.service p{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#section-3 {
+    background-color: #808080;
+    min-height: 820px;
+    color: white;
+}
+
+#contact-form {
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-row {
+    display: flex;
+}
+
+input[type="text"], input[type="email"] {
+    width: 46%;
+    height: 56px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    background-color: #404041;
+    border: none;
+    font-size: 18px;
+    margin: 16px;
+    border-radius: 5px;
+    padding-left: 26px;
+}
+
+textarea {
+    height: 200px;
+    width: 100%;
+    padding-top: 24px;
+}
+
+input[type="submit"] {
+    background-color: #424546;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.big-button {
+    padding: 25px 85px;
+    color: white;
+}
+
+footer{
+    background-color: #2a2a2b;
+}
+
+.footer-links{
+    max-width: 985px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer ul{
+    margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+}
+
+
+.footer-links ul li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+input[text="text"], input[type="email"]{
+    width: 46%;
+    height: 56px;
+}
+input[type="submit"]{
+    background-color: #38393a;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.big-button{
+    padding: 25px 85px;
+    color: white;
+}
+
+footer{
+    background-color: #474749;
+}
+
+.footer-links{
+    max-width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer ul{
+    margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+
+}
+
+.footer-links ul li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;   
+}
+
+
+header img{
+    width: 117px;
+    height: 37px;
+}
+
+@media only screen and (max-width:800px){
+        header{
+            flex-direction: column;
+        }
+        nav ul li{
+            width: 100%;
+            text-align: center;
+        }
+
+        header img{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .main-heading h1{
+            width: 90%;
+            font-size: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .main-heading a{
+         font-size: 13px;
+         padding: 0;
+        }
+        .main-heading{
+        margin-top: 0;
+        }
+
+        nav ul li:active{
+            padding-right: 0;
+        }
+        nav ul{
+            margin-left: 0;
+        }
+
+        .service{
+            width: 100%;
+        }
+
+        .form-row{
+         flex-direction: column;
+        }
+        
+        input[type="name"], input[type="email"], textarea{
+           width: 90%;
+           margin-left: auto;
+           margin-right: auto;
+        }
+
+        .title-box{
+            width: 90%;
+        }
+
+        footer ul{
+            flex-direction:column ;
+        }
+
+        footer ul li{
+            text-align: center;
+        }
+
+        .servies-box{
+            flex-direction: column;
+        }
 }
