@@ -1,0 +1,30 @@
+.test {
+    font-size: 100px;
+    color: aquamarine;
+    background-color: aqua;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.rectangle {
+  width: 200px;
+  height: 100px;
+  background-color: green;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+}
