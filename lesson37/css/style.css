@@ -1,0 +1,51 @@
+ul#sort li {
+    background-color: aliceblue;
+    color: white;
+    padding: 20px;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+ul#sort{
+    padding: 0%;
+}
+
+ul#sort1 li {
+    background-color: rgb(63, 117, 165);
+    color: white;
+    padding: 15px;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+ul#sort2 li {
+    background-color: rgb(63, 117, 165);
+    color: white;
+    padding: 15px;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+ul#sort3 li {
+    background-color: rgb(63, 117, 165);
+    color: white;
+    padding: 15px;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+ul#sort4 li {
+    background-color: rgb(63, 117, 165);
+    color: white;
+    padding: 15px;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+ul#sort5 li {
+    background-color: rgb(63, 117, 165);
+    color: white;
+    padding: 15px;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
